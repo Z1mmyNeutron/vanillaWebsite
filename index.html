@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="urf-8">
+    <link rel="stylesheet" type="text/css" href="./built/navbarStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=QuickSand:500" rel ="stylesheet">
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+          if($(window).scrollTop()){
+            $('nav').addClass('black');
+          }
+          else {
+            $('nav').removeClass('black');
+          }
+        })
+        </script>
+            <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+    <body style="overflow:hidden">
+    <div class="wrapper">
+      
+        <section class="sec1"></section>
+  
+    </div>
+
+    <div>
+        <canvas id="chrissieCanvas" width="800" height="600" style="border: 1px solid #000000; display: block">
+          
+        
+        </canvas>
+    </div>
+</body>
+
+<script src="./built/main.js">
+</script>
+
+</html>
